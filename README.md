@@ -1,8 +1,6 @@
 <img width="700" height="754" alt="image" src="https://github.com/user-attachments/assets/2cc81bad-d892-420e-8cf4-79753e06881a" />
 
-# WebNamp! 🎵
-
-Player de áudio web inspirado no Winamp clássico dos anos 2000, com visual retrô em verde néon e **autoplay automático** entre músicas!
+WebNamp! - Player de áudio web inspirado no Winamp clássico dos anos 2000, com visual retrô em verde néon e **autoplay automático** entre músicas.
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -25,8 +23,8 @@ Player de áudio web inspirado no Winamp clássico dos anos 2000, com visual ret
 - ✅ **Playlist dinâmica** com informações de cada faixa
 - ✅ **Remover músicas** - Ícone de lixeira em cada item
 - ✅ **Display LED** mostrando música atual e tempo em tempo real
-- ✅ **Interface retrô** idêntica ao Winamp clássico (verde néon sobre preto)
-- ✅ **100% client-side** - Sem backend necessário
+- ✅ **Interface retrô** remete ao Winamp clássico (verde sobre preto)
+- ✅ **100% client-side** - Sem backend (levíssimo)
 - ✅ **Rápido e responsivo** - JavaScript puro, sem frameworks
 
 ## 📁 Formatos Suportados
