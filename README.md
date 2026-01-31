@@ -100,13 +100,14 @@ Acesse o link que aparecer
 ## 📁 Estrutura do Projeto
 
 ```
-webnamp!/
-├── index.html      # Estrutura HTML
-├── style.css       # Estilos Winamp clássico
-├── app.js          # Lógica e autoplay
-├── vercel.json     # Configuração Vercel
-├── .gitignore      # Arquivos ignorados
-└── README.md       # Documentação
+webnamp/
+├── public/
+│   ├── index.html      # Estrutura HTML
+│   ├── style.css       # Estilos Winamp clássico
+│   └── app.js          # Lógica e autoplay
+├── vercel.json         # Configuração Vercel
+├── .gitignore          # Arquivos ignorados
+└── README.md           # Documentação
 ```
 
 ## 🎨 Visual
