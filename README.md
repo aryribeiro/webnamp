@@ -1,3 +1,5 @@
+<img width="700" height="754" alt="image" src="https://github.com/user-attachments/assets/2cc81bad-d892-420e-8cf4-79753e06881a" />
+
 # WebNamp! 🎵
 
 Player de áudio web inspirado no Winamp clássico dos anos 2000, com visual retrô em verde néon e **autoplay automático** entre músicas!
@@ -158,11 +160,3 @@ Inspirado no lendário **Winamp** - O player que marcou uma geração!
 ---
 
 **Made with 💚 by Ary Ribeiro**
-
-## 🔗 Links Úteis
-
-- [LinkedIn - Ary Ribeiro](https://www.linkedin.com/in/aryribeiro/)
-- [Vercel Documentation](https://vercel.com/docs)
-- [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)
-- [HTML5 Audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio)
-- [CSS Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations)
