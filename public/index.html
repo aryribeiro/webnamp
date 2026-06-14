@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎵 WebNamp!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="winamp-header">🎵 WebNamp!</div>
+        
+        <div class="upload-section">
+            <label for="file-input" class="upload-label">
+                ADICIONE SUAS MÚSICAS ABAIXO:
+            </label>
+            <input type="file" id="file-input" accept="audio/mp3,audio/mpeg,audio/wav,audio/ogg,audio/m4a,audio/aac,audio/flac,audio/x-flac,video/mp4,video/webm,video/ogg" multiple>
+        </div>
+
+        <div class="led-display" id="led-display">
+            <div class="track-info" id="track-title"></div>
+            <div class="track-info" id="track-artist"></div>
+            <div class="time-volume-row">
+                <div class="time-display" id="time-display">00:00</div>
+                <div class="volume-control">
+                    <span class="volume-icon" id="volume-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle"><polygon points="2,9 2,15 6,15 11,19 11,5 6,9"/><path d="M14 8c1.5 1 1.5 7 0 8" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M17 5c3 2.5 3 11.5 0 14" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
+                    <input type="range" id="volume-slider" min="0" max="100" value="80" class="volume-slider">
+                </div>
+            </div>
+            <div class="progress-bar-container" id="progress-container">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+            <div class="status-info" id="status-info">⏹ STOPPED | Track 0/0</div>
+        </div>
+
+        <audio id="audio-player" style="width: 100%; background: #1a1a1a; border-radius: 5px; margin: 10px 0;"></audio>
+
+        <div class="controls">
+            <button id="btn-prev" class="control-btn">⏮ PREV</button>
+            <button id="btn-next" class="control-btn">⏭ NEXT</button>
+            <button id="btn-play" class="control-btn"><span style="font-size:1.2em">⏸</span> ▶ PLAY</button>
+            <button id="btn-stop" class="control-btn">⏹ STOP</button>
+        </div>
+
+        <h3 class="playlist-title">Playlist</h3>
+        <div class="playlist" id="playlist"></div>
+
+        <div class="footer">
+            Made with 💚 by <a href="https://www.linkedin.com/in/aryribeiro/" target="_blank">Ary Ribeiro</a> | Winamp Classic Tribute
+        </div>
+    </div>
+
+    <div class="lightbox-overlay" id="lightbox-overlay">
+        <div class="lightbox-container">
+            <button class="lightbox-close-btn" id="lightbox-close" title="Fechar">✕</button>
+            <video id="lightbox-video" controls></video>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
