@@ -1,4 +1,4 @@
-<img width="700" height="754" alt="image" src="https://github.com/user-attachments/assets/2cc81bad-d892-420e-8cf4-79753e06881a" />
+<p align="center"><img width="700" height="754" alt="image" src="https://github.com/user-attachments/assets/2cc81bad-d892-420e-8cf4-79753e06881a" /></p>
 
 Player de áudio web inspirado no Winamp clássico dos anos 2000, com visual retrô em verde néon e **autoplay automático** entre músicas!
 
